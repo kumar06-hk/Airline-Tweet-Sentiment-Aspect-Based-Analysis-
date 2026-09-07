@@ -1,0 +1,8 @@
+Model,Approach,Score_Type,Features,CV_Mean_Acc,Main_Score,Macro_F1,Weighted_F1
+AFINN,Lexicon,Agreement with rule-based ground truth,Lexicon score,,0.5949059615518079,0.5930205890062514,0.5990487439178668
+VADER,Lexicon,Agreement with rule-based ground truth,Lexicon compound,,0.5529877160108265,0.5497280676599878,0.5572119127587062
+TextBlob,Lexicon,Agreement with rule-based ground truth,Lexicon polarity,,0.5324449996529946,0.5291630110503399,0.5325392414007375
+Logistic Regression,Traditional ML,Test Accuracy,TF-IDF + SMOTE,0.9209,0.9264,0.9166,0.9265
+Linear SVM,Traditional ML,Test Accuracy,TF-IDF + SMOTE,0.9239,0.9323,0.9252,0.9325
+BiLSTM,Deep Learning,Test Accuracy,Token sequences + BiLSTM,,0.9524,0.9475,0.9523
+DistilBERT,Transformer,Test Accuracy,Contextual embeddings,,0.9542,0.9474,0.954

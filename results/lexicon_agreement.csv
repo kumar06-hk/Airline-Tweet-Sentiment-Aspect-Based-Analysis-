@@ -1,0 +1,4 @@
+Model,Approach,Score_Type,Agreement,F1_Macro,F1_Weighted
+AFINN,Lexicon,Agreement with rule-based ground truth,0.5949059615518079,0.5930205890062514,0.5990487439178668
+VADER,Lexicon,Agreement with rule-based ground truth,0.5529877160108265,0.5497280676599878,0.5572119127587062
+TextBlob,Lexicon,Agreement with rule-based ground truth,0.5324449996529946,0.5291630110503399,0.5325392414007375

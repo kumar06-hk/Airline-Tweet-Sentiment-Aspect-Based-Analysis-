@@ -1,0 +1,6 @@
+Model,Type,Strength,Limitation
+TextBlob / VADER / AFINN,Lexicon,Works without labelled training data and gives interpretable sentiment scores,Agreement is measured against rule-based ground truth labels
+Logistic Regression,Traditional ML,Fast and easy to interpret with TF-IDF features,Bag-of-words representation does not model word order
+Linear SVM,Traditional ML,Strong margin-based classifier for sparse text features,Does not capture word meaning directly
+BiLSTM,Deep Learning,Captures sequence patterns in short tweet text,Needs suitable regularisation for stable generalisation
+DistilBERT,Transformer,Uses contextual language understanding for tweet classification,Needs more computation and is slower to fine-tune

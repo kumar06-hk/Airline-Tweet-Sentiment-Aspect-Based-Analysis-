@@ -1,0 +1,7 @@
+Aspect,Total_Mentions,Positive_Count,Neutral_Count,Negative_Count,Avg_Score,Positive_%,Negative_%
+Delays,3855,1583,613,1659,0.0004,41.1,43.0
+Booking,2412,1081,307,1024,0.0219,44.8,42.5
+Baggage,1340,630,175,535,0.0368,47.0,39.9
+Comfort,1168,614,194,360,0.1474,52.6,30.8
+Customer Service,3102,1762,283,1057,0.152,56.8,34.1
+Food,1549,875,171,503,0.1895,56.5,32.5
